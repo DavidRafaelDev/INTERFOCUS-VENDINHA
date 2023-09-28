@@ -12,7 +12,7 @@ Certifique-se de ter o aplicativo expo no seu celular, caso não tenha pode baix
 ## Instalação
 Clone este repositório em sua máquina local:
 ```console
-https://github.com/DavidRafaelDev/INTERFOCUS-VENDINHA.git
+git clone https://github.com/DavidRafaelDev/INTERFOCUS-VENDINHA.git
 ```
 Navegue até o diretório do projeto:
 ```console
