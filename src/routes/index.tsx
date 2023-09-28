@@ -1,15 +1,29 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home } from "../screens/Home";
-import { Profile } from "../screens/Profile";
+import { Profile } from "../screens/Debt";
 import { Feather } from "@expo/vector-icons";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { DebtAddition } from "../screens/DebtAddition";
 
-const { Navigator, Screen } = createBottomTabNavigator();
+const { Navigator: BottomTabNavigator, Screen } = createBottomTabNavigator();
+const OtherStack = createNativeStackNavigator();
+
+function DebtAdditionStackScreen() {
+  return (
+    <OtherStack.Navigator>
+      <OtherStack.Screen
+        name="DebtAddition"
+        component={DebtAddition}
+      />
+    </OtherStack.Navigator>
+  );
+}
 
 export function Routes() {
   return (
     <NavigationContainer>
-      <Navigator>
+      <BottomTabNavigator>
         <Screen
           name="home"
           component={Home}
@@ -23,6 +37,7 @@ export function Routes() {
         />
         <Screen
           name="profile"
+          component={Profile}
           options={{
             tabBarIcon: ({ size }) => (
               <Feather size={size} color="#62A856" name="user" />
@@ -30,9 +45,12 @@ export function Routes() {
             headerShown: false,
             title: "",
           }}
-          component={Profile}
         />
-      </Navigator>
+      </BottomTabNavigator>
+      <Screen
+        name="DebtAddition"
+        component={DebtAdditionStackScreen} 
+      />
     </NavigationContainer>
   );
 }
