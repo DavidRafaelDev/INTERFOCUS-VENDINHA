@@ -1,6 +1,6 @@
 # INTERFOCUS-VENDINHA
 
-[GitHub](https://github.com){:target="_blank"}
+[GitHub](https://github.com)
 
 ## Pré-requisitos
 
@@ -44,5 +44,5 @@ Estas são algumas das funcionalidades planejadas para futuras versões do proje
 ## Contato
 Nome: David Moura
 Email: davidrafaelmsm3@gmail.com
-LinkedIn: [Perfil](https://www.linkedin.com/in/david-rafael-52112914b/){:target="_blank"}
+LinkedIn: [Perfil](https://www.linkedin.com/in/david-rafael-52112914b/)
 
