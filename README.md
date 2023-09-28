@@ -7,8 +7,7 @@ Certifique-se de ter o Expo CLI instalado globalmente em sua máquina. Você pod
 ```console
 npm install -g expo-cli
 ```
-Certifique-se de ter o aplicativo expo no seu celular, caso não tenha pode baixar [aqui](https://expo.dev/client?utm_source=google&utm_medium=cpc&utm_content=performancemax&gclid=Cj0KCQjwpc-oBhCGARIsAH6ote_aeI7x8OAUjEBzXcC1kW0VsycmDNP7mcXVNFmF1Sl1eVffOSf-yj8aAq-_EALw_wcB)
-
+Certifique-se de ter o aplicativo expo no seu celular, caso não tenha pode baixar [aqui](https://expo.dev/client?utm_source=google&utm_medium=cpc&utm_content=performancemax&gclid=Cj0KCQjwpc-oBhCGARIsAH6ote_aeI7x8OAUjEBzXcC1kW0VsycmDNP7mcXVNFmF1Sl1eVffOSf-yj8aAq-_EALw_wcB){:target="_blank"}
 ## Instalação
 Clone este repositório em sua máquina local:
 ```console
@@ -43,5 +42,5 @@ Estas são algumas das funcionalidades planejadas para futuras versões do proje
 ## Contato
 Nome: David Moura
 Email: davidrafaelmsm3@gmail.com
-LinkedIn: [Perfil](https://www.linkedin.com/in/david-rafael-52112914b/)
+LinkedIn: [Perfil](https://www.linkedin.com/in/david-rafael-52112914b/){:target="_blank"}
 
