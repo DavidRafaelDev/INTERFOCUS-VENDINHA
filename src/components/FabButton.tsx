@@ -1,10 +1,17 @@
-import { TouchableWithoutFeedback, View, Text, StyleSheet } from "react-native";
+import {ParamListBase, useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
+import { TouchableWithoutFeedback, View, StyleSheet } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 
 export function FabButton() {
+  const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
+
+  function openNewComponent() {
+    navigation.navigate('DebtAddition');
+  }
   return (
-    <View style={styles.contaner}>
-      <TouchableWithoutFeedback>
+    <View style={styles.container}>
+      <TouchableWithoutFeedback onPress={openNewComponent}>
         <View style={styles.button}>
           <AntDesign name="plus" size={24} color="#fff" />
         </View>
@@ -14,15 +21,13 @@ export function FabButton() {
 }
 
 const styles = StyleSheet.create({
-  contaner: {
-    alignContent: "center",
+  container: {
     position: "absolute",
     bottom: 70,
     right: 60,
   },
   button: {
     position: "absolute",
-    color: "red",
     width: 60,
     height: 60,
     borderRadius: 60 / 2,
