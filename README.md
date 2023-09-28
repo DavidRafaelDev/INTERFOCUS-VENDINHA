@@ -16,7 +16,7 @@ git clone https://github.com/DavidRafaelDev/INTERFOCUS-VENDINHA.git
 ```
 Navegue até o diretório do projeto:
 ```console
-cd interfocus-app
+cd INTERFOCUS-VENDINHA
 ```
 Instale as dependências do projeto:
 ```console
