@@ -1,5 +1,7 @@
 # INTERFOCUS-VENDINHA
 
+[GitHub](https://github.com){:target="_blank"}
+
 ## Pré-requisitos
 
 Certifique-se de ter o Expo CLI instalado globalmente em sua máquina. Você pode instalar o Expo CLI usando o npm (Node Package Manager) com o seguinte comando:
